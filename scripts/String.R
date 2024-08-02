@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------------------------------
 
-a <- "Hello"
+a <- "Hello World"
 b <- "World"
 
 # what do you thing the following result will be?
@@ -29,7 +29,9 @@ nchar(a)
 
 #-------------------------------------------------------------------------------
 # check the presence of character in a string
-grepl("e", a)
+grepl("Z", a)
+
+print("Derrick")
 
 
 
