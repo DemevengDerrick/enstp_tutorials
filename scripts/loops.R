@@ -18,9 +18,9 @@
 a = 0
 
 while(a < 10){
-  a = a + 1
+  a = a - 1
   print(a)
-  #Sys.sleep(1)
+  Sys.sleep(1)
 }
 
 # Que ce passerait-il si au lieu de a = a + 1 on avait a = a - 1?
@@ -34,6 +34,8 @@ while(a < 10){
   a = a + 1
   if(a == 5){
     break  # est un mot cle qui stop une operation quand une condition est vrai.
+  } else if(a == 3){
+    next
   }
   print(a)
   Sys.sleep(1)
@@ -81,6 +83,7 @@ for(i in 0:20){
   if(i %% 2 == 0){
     print(i)
   }
+  Sys.sleep(1)
 }
 
 # Exercises --------------------------------------------------------------------
